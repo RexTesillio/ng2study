@@ -1,6 +1,6 @@
 <div class="title">
   <h1>Today</h1>
-  <h2>6/19</h2>
+  <h2>{{today|date:'M월d일'}}</h2>
 </div>
 <div>
   <div *ngFor="let todo of todos" (click)="toggleTodo(todo)">
@@ -8,3 +8,4 @@
   </div>
 </div>
 <app-add-todo (onTodoAdded)="addTodo($event)"></app-add-todo>
+{{todos|json}}
