@@ -1,0 +1,16 @@
+.title {
+    background-color: blueviolet;
+    padding: 46px 26px 26px 16px;
+    color: white;
+    font-weight: normal;
+}
+h1, h2 {
+    font-weight: normal;
+    margin: 0;
+}
+h1 {
+    margin-bottom: 16px;
+}
+app-todo {
+    border-bottom: 1px solid #ccc;
+}
